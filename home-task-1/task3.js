@@ -6,7 +6,7 @@ function solveQuadraticEquation(a, b, c) {
     x1 = (-b+sqrt(d))/2a
     x2 = (-b-sqrt(d))/2a
 
-    if a, b == 0 -> show infinity, and if c == 0 than error
+    if a, b == 0 -> show infinity, and if c != 0 than error
     if (a == 0) -> linear equation -> bx+ c = 0, than x = -c/b
     if (b == 0) -> ax^2 + c = 0 than x1,2 = +/- sqrt(-c/a) if (c/a >0) x = |c/a|*sqrt(-1) or i
     if (c == 0) -> ax^2 + bx = 0 -> x(ax+b)=0, x1=0, x2 = -b/a
